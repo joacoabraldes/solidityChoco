@@ -1,6 +1,5 @@
 const {ethers} = require('hardhat')
-const assert = require('assert')
-const expect = require('')
+const expect = require('mocha')
 
 describe('My Token', function(){
     it ('initial balance for deployer', async () => {
